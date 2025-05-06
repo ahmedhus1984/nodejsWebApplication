@@ -18,4 +18,3 @@ EXPOSE 3001
 
 # Run the app
 CMD ["npm", "start"]
-

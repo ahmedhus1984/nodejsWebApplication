@@ -12,4 +12,3 @@ docker run -d \
   -v "$HOST_DIR:$CONTAINER_DIR" \
   --name nodejs-webapp-container \
   "$IMAGE"
-
