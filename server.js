@@ -7,7 +7,7 @@ app.use(expressLayouts);
 app.set('layout', 'partials/base');
 
 app.get('/', (req, res) => {
-  res.render('index', { layout: 'partials/indexbase' });
+  res.render('index', {layout:'partials/indexbase'});
 });
 
 app.get('/adduser', (req, res) => {
